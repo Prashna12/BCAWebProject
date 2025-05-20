@@ -1,1 +1,1 @@
-### This project is for eductional propose.
+### This project is for educational project.
