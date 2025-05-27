@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:#8f9aa4;
+   color: #080630; 
+   padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+form {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #986f1e;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(151, 78, 78, 0.1);
+}
+
+
+table {
+   width: 100%;
+  border-collapse: collapse;
+}
+td {
+   padding: 12px 8px;
+   vertical-align: top ;
+}
+label {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+textarea:focus {
+  border-color: #0e1c37;
+  outline: none;
+}
+input[type="radio"] {
+  margin-right: 6px;
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+/* Submit and Reset buttons */
+input[type="submit"],
+input[type="reset"] {
+background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  margin: 15px 10px 0 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+input [type="reset"] {
+  background-color: #95a5a6;
+}
+
+input[type="submit"]:hover {
+  background-color: #156d73;
+}
+
+input[type="reset"]:hover {
+  background-color: #156d73;
+}
+d {
+    display: block;
+    width: 100%;
+  }
+
+  td:first-child {
+    margin-bottom: 6px;
+  }

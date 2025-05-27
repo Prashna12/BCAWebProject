@@ -3,59 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
-<body>
-    <div>
-  <h1>Form</h1>
-  <form action="">
-  <div>
-<label for="name">Name:</label> 
-<input type="Text" Placeholder="Enter your full name" id="name">
-</div>
-<br>
-<div>
-<label for="phone">phone:</label>
-<input type ="number" placeholder="Enter your phone number" id="phone">
-</div>
-<div>
-    <label for ="interesr">select you interest</label>
-    Reading:<input type="checkbox" id="interest">
-    sking:<input type ="checkbox" id="interest">
-    Travel:<input type="checkbox" id="interest">
-    coding:<input type="checkbox" id="interest">
-</div>
-<br>
-<label for ="gender">Gender:</label>
-<br>
-Male<input type="radio">
-Female<input type="radio">
-others<input type="radio" name="gender">
-</div>
-<br>
-<div>
-<label for="faculty">faculty: </label>
-<select name =""id="faculty">
- <option value="bim ">CSIT</option>
- <option value="bca" >BCA</option>
- <option value="csit">Bim</option>
- </select>
- <div>
-    <br>
-    <div>
- <label for="Image">upload Image</label>
- <br>
- <br>
- <input type="file"accept="image"id="image">
-    </div>
-    <br>
-    <br>
-    <div>
-        <input type="submit">
-        <input type="Reset">
-    </div>
- </div>
-</form>
-</div>
-</body>
-</html>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/form.css" type="text/css">
+    </head>
+    <body>
+        <h1>Student Registration Form </h1>
+        <form>
+            <table>
+         <tr>
+            <td><label for= "FirstName">First Name:</label></td>
+            <td><input type="text" id="firstname" name="firstname" placeholder="Enter your First name"></td>
+         </tr>
+         <tr>
+            <td><label for="LastName">Last Name :</label></td>
+             <td><input type="text" id="lastname" name="lastname "placeholder="Enter your Last name"></td>
+         </tr>
+         <tr>
+            <td><label for="Email">Email :</label></td>
+             <td><input type="email" id="name" name="email "placeholder="Enter your Email"></td>
+         </tr>
+         <tr>
+            <td><label for="Password">Password :</label></td>
+            <td><input type="password" id="name" name="pass" placeholder="Enter your password"></td>
+         </tr>
+         <tr>
+            <td><label for="Re-EnterPassword">Re-enter password :</label></td>
+            <td><input type="password" id="name" name="pass" placeholder="Re-Enter your password"></td>
+         </tr>
+         <tr>
+            <td><label for="DOB">Date of Birth :</label></td>
+            <td><input type="date" id="name" name="DOB"></td>
+         </tr>
+         <tr>
+            <td><label for="Mobile Number">Mobile Number :</label>:</td>
+            <td><input type="number" id="mobile number" name="mobile number" placeholder="Enter your password"></td>
+         </tr>
+         <tr>
+            <td >Gender :</td> 
+            <td>
+         <input type="radio" id="male" name="gender" value="male"/>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female"/>
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other"/>
+          <label for="other">Other</label>
+        </td>
+            <tr>
+                <td><label for="address">Address :</label></td>
+                <td><textarea rows="6" cols="25" placeholder="Enter your Address"></textarea></td>
+              <tr>
+            <td><label for="state">State:</label></td>
+            <td><input type="text" id="name" name="state" placeholder="Enter your state"></td>
+         </tr>  
+         <tr>
+            <td><label for="city">City :</label></td>
+            <td><input type="text" id="name" name="city" placeholder="Enter your City"></td>
+         </tr>
+         <tr>
+            <td><label for="country">Country :</label></td>
+            <td><input type="text" id="name" name="state" placeholder="Enter your Country"></td>
+         </tr>
+         <tr>
+            <td><label for="pincode">Pincode :</label></td>
+            <td><input type="number" id="name" name="num" placeholder="Enter your pincode"></td>
+         </tr>
+         <tr>
+            <td>Course Applied For :</label></td>
+            <td><input type="radio" name="male">BCA<input type="radio" name="male">BIM <input type="radio" name="male">CSIT</td>
+            </td>
+         </tr>
+         <tr>
+            <td align="center" colspan="2">
+             <input type="Submit" value="submit">
+             <input type="Reset" value="reset">
+            </td>
+            </tr>
+        </table>
+        </form>
+        <body>
+        <html>
+         add something on fet-one
